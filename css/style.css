@@ -165,7 +165,8 @@ footer {
   font-size: 30px;
   color: #ffffff;
   font-weight: bold;
-  font-family: 'Sacramento', cursive;
+  /* font-family: 'Sacramento', cursive; */
+  font-family: 'Great Vibes', cursive;
   letter-spacing: 2px;
   text-transform: uppercase;
   transition: all 0.5s ease;
@@ -244,6 +245,7 @@ footer {
   position: relative;
 }
 .home-section .slide {
+  background-image: url('/img/background-big.jpg');
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -306,7 +308,8 @@ footer {
   color: #ffffff;
   margin: 0;
   font-weight: large;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Great Vibes', cursive;
+  /* font-family: 'Sacramento', cursive; */
   /* text-shadow: 3px 3px #f38181; */
 }
 .home-section .slide.active .home-content h1 {
@@ -389,7 +392,8 @@ footer {
 .couple-section .couple h3 {
   font-size: 40px;
   margin: 15px 0;
-  font-family: 'Sacramento', cursive;
+  /* font-family: 'Sacramento', cursive; */
+  font-family: 'Great Vibes', cursive;
   font-weight: normal;
   letter-spacing: 2px;
 }
@@ -434,6 +438,13 @@ footer {
 /* Event section */
 .event-start {
   background-color: #e5d3b3 !important;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('/img/rumah-joglo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative; */
 }
 .event-section {
   padding: 80px 0 130px;
