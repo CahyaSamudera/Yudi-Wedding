@@ -335,6 +335,63 @@ footer {
   animation: fadeInTop 1s ease forwards;
   animation-delay: 1s;
 }
+
+/* Box Ring */
+.ring-section {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('/img/ring-5.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ring-section .box-ring {
+  position: relative;
+  max-width: 800px;
+  padding: 50px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  color: #000;
+}
+.ring-section .box-ring:before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  background: url('/img/ring-5.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(4px);
+}
+.ring-section .box-ring h2 {
+  text-align: center;
+  position: relative;
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 48px;
+  text-transform: uppercase;
+  z-index: 2;
+}
+.ring-section .box-ring p {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  z-index: 2;
+  text-align: justify;
+}
+.ring-section .box-ring p:nth-child(3) {
+  text-align: center;
+}
+
 /* Opening section */
 .opening-section {
   background-color: #e5d3b3 !important;
