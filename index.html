@@ -15,6 +15,9 @@
     <!-- Data aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
+    <!-- css Simple-lighbox -->
+    <link rel="stylesheet" href="css/simple-lightbox.min.css" />
+
     <!-- font awesome css -->
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
     <!-- main css -->
@@ -646,6 +649,31 @@
       </div>
     </section> -->
 
+    <!-- Gallery -->
+    <section class="section-c">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <a href="img/yudi-kiki-1.jpg" class="big"
+          ><img src="img/yudi-kiki-1.jpg" alt=""
+        /></a>
+        <a href="img/yudi-kiki-2.jpg" class="big"
+          ><img src="img/yudi-kiki-2.jpg" alt=""
+        /></a>
+        <a href="img/yudi-kiki-3.jpg" class="big"
+          ><img src="img/yudi-kiki-3.jpg" alt=""
+        /></a>
+        <a href="img/yudi-kiki-4.jpg" class="big"
+          ><img src="img/yudi-kiki-4.jpg" alt=""
+        /></a>
+        <a href="img/yudi-kiki-5.jpg" class="big"
+          ><img src="img/yudi-kiki-5.jpg" alt=""
+        /></a>
+        <a href="img/yudi-kiki-6.jpg" class="big"
+          ><img src="img/yudi-kiki-6.jpg" alt=""
+        /></a>
+      </div>
+    </section>
+
     <!-- footer start -->
     <footer class="footer">
       <div class="container">
@@ -721,6 +749,15 @@
 
     <!-- theme setting -->
     <script src="js/setting.js"></script>
+
+    <!-- jquery simple-lightbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simple-lightbox.min.js"></script>
+    <!-- <script src="js/simple-lightbox.min.js"></script> -->
+    <script>
+      $(function () {
+        const $gallery = $('.gallery a').simpleLightbox();
+      });
+    </script>
 
     <script>
       AOS.init();
